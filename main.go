@@ -10,10 +10,10 @@ import (
 	"sort"
 	"strings"
 
-	model "./model"
-	output "./output"
-	responses "./responses"
-	util "./util"
+	"github.com/jpdillingham/brainz/model"
+	"github.com/jpdillingham/brainz/output"
+	"github.com/jpdillingham/brainz/responses"
+	"github.com/jpdillingham/brainz/util"
 )
 
 var apiRoot = "https://musicbrainz.org/ws/2"

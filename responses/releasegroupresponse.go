@@ -1,6 +1,6 @@
 package responses
 
-import model "../model"
+import "github.com/jpdillingham/brainz/model"
 
 type ReleaseGroupResponse struct {
 	ReleaseGroups      []model.ReleaseGroup `json:"release-groups"`
