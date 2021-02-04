@@ -1,6 +1,6 @@
 package responses
 
-import model "../model"
+import "github.com/jpdillingham/brainz/model"
 
 type ReleaseResponse struct {
 	ReleaseOffset int             `json:"release-offset"`

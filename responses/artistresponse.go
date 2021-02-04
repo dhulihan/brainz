@@ -3,7 +3,7 @@ package responses
 import (
 	"time"
 
-	model "../model"
+	"github.com/jpdillingham/brainz/model"
 )
 
 // ArtistResponse encapsulates the response received from an artist search.
